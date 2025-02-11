@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero button:hover, .cta button:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+input, select {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    background: white;
+    border-radius: 5px;
+}
+
+form button:hover {
+    transform: scale(1.05);
+}
